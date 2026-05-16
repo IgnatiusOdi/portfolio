@@ -1,7 +1,7 @@
 const Experience = (props) => {
     return (
         <>
-            <h1 id={props.id}>{props.title}</h1>
+            <h1 id={props.id} className="mt-8">{props.title}</h1>
             <ol className="relative border-s border-gray-700">
                 {props.data.map((d) => (
                     <li className="ms-4" key={d.time}>
@@ -9,7 +9,7 @@ const Experience = (props) => {
                         <div className="muted">{d.time}</div>
                         <div className="title">
                             {d.link ? (
-                                <a href={d.link} target="_blank">
+                                <a href={d.link} target="_blank" className="underline">
                                     {d.title}
                                 </a>
                             ) : (

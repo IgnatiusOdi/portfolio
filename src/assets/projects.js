@@ -58,7 +58,12 @@ export const projects = [
                 language: "C++",
                 github: "https://github.com/IgnatiusOdi/praktikum-itp-m7",
             },
-
+            {
+                title: "praktikum-itp-ta",
+                description: "Practical Assessment ITP TA",
+                language: "C++",
+                github: "https://github.com/IgnatiusOdi/praktikum-itp-ta",
+            },
             {
                 title: "quiz-iwww",
                 description: "Internet and WWW (IWWW) Quiz",
@@ -78,21 +83,15 @@ export const projects = [
         year: 2021,
         list_project: [
             {
-                title: "praktikum-basdat-m1",
-                description: "Practical Assessment BASDAT M1",
-                language: "",
-                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m1",
-            },
-            {
                 title: "praktikum-basdat-m2",
                 description: "Practical Assessment BASDAT M2",
-                language: "",
+                language: "SQL",
                 github: "https://github.com/IgnatiusOdi/praktikum-basdat-m2",
             },
             {
                 title: "praktikum-basdat-m3",
                 description: "Practical Assessment BASDAT M3",
-                language: "",
+                language: "SQL",
                 github: "https://github.com/IgnatiusOdi/praktikum-basdat-m3",
             },
             {
@@ -114,10 +113,10 @@ export const projects = [
                 github: "https://github.com/IgnatiusOdi/praktikum-basdat-m6",
             },
             {
-                title: "praktikum-basdat-m7",
-                description: "Practical Assessment BASDAT M7",
-                language: "",
-                github: "https://github.com/IgnatiusOdi/praktikum-basdat-m7",
+                title: "praktikum-basdat-ta",
+                description: "Practical Assessment BASDAT TA",
+                language: "SQL",
+                github: "https://github.com/IgnatiusOdi/praktikum-basdat-ta",
             },
             {
                 title: "praktikum-pbo-m1",
@@ -553,7 +552,7 @@ export const projects = [
                 description:
                     "Final Project Monitoring System Hydroponic Installation using LoRaWAN, MQTT, Flutter, Firebase, Cloud Firestore, Cloud Messaging, and Cloud Functions",
                 language: "Flutter, Firebase, LoRa, C++ (Arduino IDE), MQTT",
-                github: "https://github.com/IgnatiusOdi/monitoring-hidroponik-flutter",
+                github: "https://github.com/IgnatiusOdi/monitoring_hidroponik_flutter",
             },
         ],
     },

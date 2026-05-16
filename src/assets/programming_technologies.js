@@ -3,6 +3,7 @@ import {
     SiAnsible,
     SiArduino,
     SiAxios,
+    SiC,
     SiCanva,
     SiCplusplus,
     SiCss3,
@@ -10,6 +11,7 @@ import {
     SiEspressif,
     SiFigma,
     SiGit,
+    SiGitforwindows,
     SiGnubash,
     SiHtml5,
     SiJavascript,
@@ -24,6 +26,7 @@ import {
     SiTypescript,
     SiVercel,
     SiVim,
+    SiWordpress,
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -53,6 +56,7 @@ export const frontend = [
             </>
         ),
         details: [
+            "Webix",
             "React",
             "Next.js",
             "Vue.js",
@@ -86,7 +90,7 @@ export const backend = [
 export const database = [
     {
         name: "SQL",
-        details: ["MySQL", "Microsoft SQL Server", "SQLite", "Oracle"],
+        details: ["PostgreSQL", "MySQL", "Microsoft SQL Server", "SQLite", "Oracle"],
     },
     {
         name: "NoSQL",
@@ -157,11 +161,12 @@ export const desktop = [
     },
     {
         name: "C",
+        icon: <SiC size={20} />,
         details: [],
     },
 ];
 
-export const webtesting = [
+export const testing = [
     {
         name: "Selenium",
         icon: <SiSelenium size={20} />,
@@ -171,7 +176,7 @@ export const webtesting = [
 
 export const linux = [
     {
-        name: "Bash / Shell",
+        name: "Shell / Bash / Batch",
         icon: <SiGnubash size={20} />,
         details: [],
     },
@@ -223,4 +228,9 @@ export const other = [
         icon: <SiVercel size={20} />,
         details: [],
     },
+    {
+        name: "WordPress",
+        icon: <SiWordpress size={20} />,
+        details: [],
+    }
 ];

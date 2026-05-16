@@ -5,21 +5,23 @@ export const organization_experience = [
         location: "Yarra Ballroom",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Assisted the equipment committee in preparing all necessary supplies for the event",
-            "Greeted and directed participants to the event venue",
-            "Assisted the catering committee in distributing lunch to participants",
+            "Teamed up with the logistics crew to prep, carry, and set up all the gear and supplies needed for the event",
+            "Welcomed attendees and helped guide them to the event venue",
+            "Helped handle the food lineup, making sure lunches were handed out to all participants",
+            "Acted as the go-to person for participants, answering their questions about workshop schedules and where to go"
         ],
         link: "https://drive.google.com/file/d/1BqGMDZXhUYTyuGDokdctgSrQ8IUrXR7R/view?usp=drive_link",
     },
     {
         time: "August 2023",
-        title: "Keras Community Day - Volunteer",
+        title: "Keras Community Day 2023 - Volunteer",
         location: "Institut Sains dan Teknologi Terpadu Surabaya",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Greeted and directed participants to the event venue",
-            "Assisted the catering committee in distributing lunch to participants",
-            "Provided guidance to participants by answering questions about workshop schedules and room locations",
+            "Teamed up with the logistics crew to prep, carry, and set up all the gear and supplies needed for the event",
+            "Welcomed attendees and helped guide them to the event venue",
+            "Helped handle the food lineup, making sure lunches were handed out to all participants",
+            "Acted as the go-to person for participants, answering their questions about workshop schedules and where to go"
         ],
         link: "https://drive.google.com/file/d/1PB6od3CtVL6DXCcQNMYsPmx55L20b2gD/view?usp=drive_link",
     },
@@ -29,8 +31,8 @@ export const organization_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Designed and implemented an event series from start to finish, including planning interactive mini-games and event flow for new Informatics students",
-            "Developed a website to support a mini-game with integrated features such as category randomization, word recording, and timekeeping to enhance event interactivity",
+            "Planned and ran the whole event series from scratch, creating interactive mini-games and a smooth event flow for incoming freshman",
+            "Built a custom website using React and daisyUI to power a mini-game, coding features like random category generation, word tracking, and countdown timers to keep players engaged",
         ],
         link: "",
     },
@@ -40,7 +42,9 @@ export const organization_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Collaborated with committees from other divisions to prepare necessary materials for the event series, including event supplies, book guides, group banners, room bookings, mini-game equipment, and prizes for winning teams and participants with the highest practical marks",
+            "Coordinated cross-functional logistics with multiple committee divisions to source event supplies and manage equipment for the event series",
+            "Designed and prepared key event materials, including group banners, comprehensive guidebook packages, and interactive mini-game setups",
+            "Managed the recognition program by budgeting and procuring prizes for winning teams and top-performing participants"
         ],
         link: "",
     },
@@ -50,7 +54,7 @@ export const organization_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya (Online)",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Organized the entire event series and served as the Master of Ceremonies, responsible for welcoming participants, filling in downtime, and bringing the event to a close",
+            "Organized the full event schedule and hosted as the Master of Ceremonies, keeping the audience hyped and smoothly covering technical downtime"
         ],
         link: "",
     },
@@ -60,7 +64,7 @@ export const organization_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya (Online)",
         city: "Surabaya, Indonesia",
         jobs: [
-            " Contributed to improving the user experience of the developed game by conducting bug testing, providing feedback, and suggesting new features to enchance gameplay",
+            "Helped improve the overall gameplay and user experience by hunting for bugs, writing feedback, and pitching new feature ideas to the team"
         ],
         link: "",
     },
@@ -70,7 +74,7 @@ export const organization_experience = [
         location: "Institut Sains dan Teknologi Terpadu Surabaya (Online)",
         city: "Surabaya, Indonesia",
         jobs: [
-            "Assisted in developing an engaging event timeline and creating innovative mini-games to entertain participants",
+            "Helped map out an engaging event timeline and came up with creative mini-games to keep the new students entertained"
         ],
         link: "",
     },
