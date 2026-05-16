@@ -1,9 +1,9 @@
 {
-    "name": "portofolio",
+    "name": "portfolio",
     "version": "1.0.0",
     "private": false,
     "type": "module",
-    "homepage": "https://ignatiusodi.github.io/portofolio",
+    "homepage": "https://ignatiusodi.github.io/portfolio",
     "scripts": {
         "build": "rsbuild build",
         "check": "biome check --write",

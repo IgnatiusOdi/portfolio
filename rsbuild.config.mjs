@@ -4,7 +4,7 @@ import { pluginReact } from "@rsbuild/plugin-react";
 export default defineConfig({
     plugins: [pluginReact()],
     html: {
-        title: "Portofolio | Ignatius Odi",
+        title: "Portfolio | Ignatius Odi",
     },
     resolve: {
         alias: {
@@ -14,6 +14,6 @@ export default defineConfig({
         },
     },
     output: {
-        assetPrefix: "/portofolio/",
+        assetPrefix: "/portfolio/",
     },
 });
