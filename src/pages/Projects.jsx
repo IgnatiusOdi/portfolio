@@ -14,7 +14,7 @@ const Projects = () => {
             </h1>
             <div className="title">Total Code: {count}</div>
             <ol className="relative border-s border-gray-700">
-                {projects.map((p) => (
+                {projects.sort((a, b) => a.year - b.year).map((p) => (
                     <li className="m-6" key={p.year}>
                         <div className="timeline" />
                         <div className="title muted mb-2">{p.year}</div>
