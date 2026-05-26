@@ -9,7 +9,7 @@ const Experience = (props) => {
                         <div className="muted">{d.time}</div>
                         <div className="title">
                             {d.link ? (
-                                <a href={d.link} target="_blank" className="underline">
+                                <a href={d.link} target="_blank" rel="noopener noreferrer" className="underline">
                                     {d.title}
                                 </a>
                             ) : (
@@ -19,7 +19,7 @@ const Experience = (props) => {
                         <div className="muted">
                             {d.location}
                             <span className="font-semibold">
-                                &nbsp;- {d.city}
+                                {d.city ? " - " + d.city : ""}
                             </span>
                         </div>
                         <ul className="plus">

@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <div className="container mx-auto max-w-auto p-8 m-8 rounded-lg shadow-3xl shadow-gray-400 backdrop-brightness-80">
             <h1>
-                <Link to="/">&lt; Projects</Link>
+                <Link to="/">&lt; PROJECTS</Link>
             </h1>
             <div className="title">Total Code: {count}</div>
             <ol className="relative border-s border-gray-700">
@@ -26,6 +26,7 @@ const Projects = () => {
                                         <a
                                             href={project.github}
                                             target="_blank"
+                                            rel="noopener noreferrer"
                                             className="block max-w-auto p-4 border rounded-lg bg-gray-800 border-gray-700 hover:bg-gray-900 no-underline"
                                             key={project.title}
                                         >

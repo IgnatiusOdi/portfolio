@@ -7,49 +7,36 @@ const Navbar = () => {
                 <li className="navbar-item" onClick={() => window.scroll(0, 0)}>
                     Profile
                 </li>
+
                 <li className="navbar-item">
                     <Link to="/projects">Projects</Link>
                 </li>
-                <li
-                    className="navbar-item"
-                    onClick={() => window.location.replace("#work-experience")}
-                >
-                    Work Experience
-                </li>
-                <li
-                    className="navbar-item"
-                    onClick={() =>
-                        window.location.replace("#achievement-certificate")
-                    }
-                >
-                    Achievement & Certificate
-                </li>
-                <li
-                    className="navbar-item"
-                    onClick={() =>
-                        window.location.replace("#programming-technologies")
-                    }
-                >
+
+                <li className="navbar-item" onClick={() => window.location.replace("#programming-technologies")} >
                     Programming Technologies
                 </li>
-                <li
-                    className="navbar-item"
-                    onClick={() =>
-                        window.location.replace("#organization-experience")
-                    }
-                >
+
+                <li className="navbar-item" onClick={() => window.location.replace("#work-experience")}>
+                    Work Experience
+                </li>
+
+                <li className="navbar-item" onClick={() => window.location.replace("#education")}>
+                    Education
+                </li>
+
+                <li className="navbar-item" onClick={() => window.location.replace("#achievements-certifications")}>
+                    Achievements & Certifications
+                </li>
+
+                <li className="navbar-item" onClick={() => window.location.replace("#organization-experience")}>
                     Organization Experience
                 </li>
-                <li
-                    className="navbar-item"
-                    onClick={() => window.location.replace("#languages")}
-                >
+
+                <li className="navbar-item" onClick={() => window.location.replace("#languages")}>
                     Languages
                 </li>
-                <li
-                    className="navbar-item"
-                    onClick={() => window.location.replace("#interested")}
-                >
+
+                <li className="navbar-item" onClick={() => window.location.replace("#interested")}>
                     Interested In
                 </li>
             </ul>

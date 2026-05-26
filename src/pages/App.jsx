@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { achievements_certifications } from "@assets/achievements_certifications";
 import { organization_experience } from "@assets/organization_experience";
 import { work_experience } from "@assets/work_experience";
 import ExperienceCertificate from "@components/achievements-certifications";
@@ -14,6 +15,10 @@ const App = () => {
             <div className="container mx-auto max-w-lg xl:max-w-3xl 2xl:max-w-6xl p-8 m-8 mr-20 rounded-lg shadow-3xl shadow-gray-400 backdrop-brightness-80">
                 <Profile />
 
+                <h1 id="projects" className="mt-8">
+                    <Link to="/projects">PROJECTS &gt;</Link>
+                </h1>
+
                 <ProgrammingTechnologies id={"programming-technologies"} />
 
                 <Experience
@@ -21,10 +26,6 @@ const App = () => {
                     data={work_experience}
                     id={"work-experience"}
                 />
-
-                <h1 id="projects" className="mt-8">
-                    <Link to="/projects">Projects &gt;</Link>
-                </h1>
 
                 <>
                     <h1 id="education" className="mt-8">EDUCATION</h1>
@@ -37,6 +38,7 @@ const App = () => {
 
                 <ExperienceCertificate
                     title={"ACHIEVEMENTS & CERTIFICATIONS"}
+                    data={achievements_certifications}
                     id={"achievements-certifications"}
                 />
 
